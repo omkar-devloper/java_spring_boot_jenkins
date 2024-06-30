@@ -9,6 +9,6 @@ public class DemoController {
 	@GetMapping("/")
 	@ResponseBody
 	public String index() {
-		return "welcome to spring boot";
+		return "welcome to spring boot application";
 	}
 }
